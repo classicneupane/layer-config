@@ -3,7 +3,6 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  plugins: ['@/plugins-dev/firebase.ts', '@/plugins-dev/vuetify.ts'],
   modules: [
     '@nuxt/eslint',
     '@pinia/nuxt',
